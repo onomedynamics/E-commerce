@@ -30,3 +30,4 @@ A customer should not be able to place an order if they do not have enough money
 If an order is deleted, store its details in an order_logs table for reference.
 
 ✅ Create an AFTER DELETE trigger on the orders table that saves deleted order details into order_logs.
+
